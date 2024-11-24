@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+
+# MacOS system files
+.DS_Store
+
+# Linux system files
+*.lock
+*.pid
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Optional Typescript compiled output
+*.tsbuildinfo
+
+# Temporary files
+.tmp/
+*.tmp
+
+# Coverage directory used by testing tools
+coverage/
+
+# Tailwind CSS output
+tailwind.config.js
+postcss.config.js
